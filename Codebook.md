@@ -71,7 +71,7 @@ Below is the full list of data variables:
 - A unique number 1 - 30 for each participant
 - Only summary averages for each participant's Mean and Standard Deviation are shown for each activity.
 
-###Features###
+###Feature Averages###
 - *Each feature below represents the mean/average for all the observations of that feature for each subject and each activity*
 - Time-Body-Accelerometer-Mean-X
 - Time-Body-Accelerometer-Mean-Y
