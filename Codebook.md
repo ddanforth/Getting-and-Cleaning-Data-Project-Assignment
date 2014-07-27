@@ -21,16 +21,20 @@ Cleaned UCI_HAR Dataset Code Book
 2. Following the orignal UCI_HAR schema, the features.txt data was added to the master observation table as column headers.
 
 3. After associating features to correct columns, features OTHER THAN "mean()" & "std()" were DROPPED from master table.
-..1 Leaving 66 features plus the "Activity" and "Subject" columns to make 68 columns as per assignment.
+
+- Leaving 66 features plus the "Activity" and "Subject" columns to make 68 columns as per assignment.
 
 4. The original headers were renanamed to be more readable (tidy/user friendly):
+
 -The UCI_HAR data "t" & "f" variables were expanded to "Time" and "Frequency" respectively.
 -Acc and Gyro were replaced with the full terms "Accelerator" and "Gyroscope"
 -The erronious "Body-Body" naming at the end of the file was resolved to comply with original UCI_HAR scheme.
 -The "mean()" and "std()" measurement naming was expanded to "Mean" and "StandardDeviation" respectively.
 -The "Mag" measurement indicator was expanded to "Magnitude"
 -Each element of the naming scheme was concatuated by hypens "-" to remove spaces and simplify data import.
+
 -The resulting naming schema parallels the original UCI_HAR data scheme but is more readable and is as follows:
+
 -- Time or Frequency
 -- Accelerometer or Gyroscope
 --  Body or Gravity
