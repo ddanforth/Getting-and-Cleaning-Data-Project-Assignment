@@ -44,12 +44,11 @@ Cleaned UCI_HAR Dataset Code Book
 
 7. The subjects were added to their corresponding observations in the master observation table with the header "Subject"
 	
-8. Using the "reshape2" package, the master data table observations were summarized by Subject and Activity, giving the average/mean for each feature in the table as per the class assignment instructions. 
-..1. The resulting clean data table as per instructions is *68 columns with *180 rows.
+8. Using the "reshape2" package, the master data table observations were summarized by Subject and Activity, giving the average/mean for each feature in the table as per the class assignment instructions. The resulting clean data table as per instructions is *68 columns with *180 rows.
 
 9. Once the data itself was clean and readable, it was saved to a delimited text file with commas indicating charachter fields.
-..1. The text file is easily read into another script for future processing. 
-..2. The R script duplicates the above outlined process and programattically creates the clean data. 
+- The text file is easily read into another script for future processing. 
+- The R script duplicates the above outlined process and programattically creates the clean data. 
 	
 ##DATA VARIABLES##
 
