@@ -1,12 +1,11 @@
-Getting and Cleaning Data: Project Assignment
-============================================
+##Getting and Cleaning Data: Project Assignment##
+
 
 This is the repository for the Getting and Cleaning Data's class project assignment.
 
 
 
-The dataset includes the following files:
-=========================================
+###The dataset includes the following files:###
 
 - README.md (This document. Explains what files are in the repo and how all the files are connected)
 
@@ -15,8 +14,7 @@ The dataset includes the following files:
 - run_analysis.R (Script that cleans the UCI_HAR data as per assignment instructions and outputs tidy data set to text file)
 
 
-Script Notes:
-=============
+###Script Notes:###
 
 - The run_analysis.R script can be opened and run in R Studio and run and will clean the UCI_DAR data as long as the unzipped files are in your working directory as per class project insttructions.
 - The script will check for the UCI_HAR data files to process and if not found will give an error with instructions.
