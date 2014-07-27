@@ -48,7 +48,7 @@ Cleaned UCI_HAR Dataset Code Book
 ..1. The resulting clean data table as per instructions is *68 columns with *180 rows.
 
 9. Once the data itself was clean and readable, it was saved to a delimited text file with commas indicating charachter fields.
-..1. The text file is easily read into another script or imported into Excel for future processing. 
+..1. The text file is easily read into another script for future processing. 
 ..2. The R script duplicates the above outlined process and programattically creates the clean data. 
 	
 ##DATA VARIABLES##
