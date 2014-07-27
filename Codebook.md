@@ -3,7 +3,7 @@ Cleaned UCI_HAR Dataset Code Book
 
 *Assignment:* Create a code book that describes the variables, the data, and any transformations or work you performed to clean up the data called CodeBook.md
 
-## THE DATA ## 
+##THE DATA## 
 
 - An R script "run_analysis.R" was created to programatical clean the data as per project instrucitons. 
 - The program links and merges the orignial UCI_HAR data into a master observation table.
@@ -52,7 +52,7 @@ Cleaned UCI_HAR Dataset Code Book
 ..1. The text file is easily read into another script or imported into Excel for future processing. 
 ..2. The R script duplicates the above outlined process and programattically creates the clean data. 
 	
-## DATA VARIABLES ## 
+##DATA VARIABLES## 
 
 Below is the full list of data variables: 
 
