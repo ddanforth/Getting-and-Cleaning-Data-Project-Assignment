@@ -5,5 +5,10 @@ This is the repository for the Getting and Cleaning Data's class project assignm
 
 Files included in this repo:
 - README.md (Explains what files are in the repo and how all the files are connected)
+
+
 - Codebook.md (Explains how the data was cleaned and lists any relevant codes)
+
 - run_analysis.R (Script that cleans the UCI_HAR data as per assignment instructions and outputs tidy data set to text file)
+
+_ The run_analysis.R script can be opened in R Studio and run as long as the unzipped UCI_HAR files are in your working directory.
