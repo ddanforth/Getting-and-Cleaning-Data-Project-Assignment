@@ -24,20 +24,20 @@ Cleaned UCI_HAR Dataset Code Book
 ..1 Leaving 66 features plus the "Activity" and "Subject" columns to make 68 columns as per assignment.
 
 4. The original headers were renanamed to be more readable (tidy/user friendly):
-..1. The UCI_HAR data "t" & "f" variables were expanded to "Time" and "Frequency" respectively.
-..2. Acc and Gyro were replaced with the full terms "Accelerator" and "Gyroscope"
-..3. The erronious "Body-Body" naming at the end of the file was resolved to comply with original UCI_HAR scheme.
-..4. The "mean()" and "std()" measurement naming was expanded to "Mean" and "StandardDeviation" respectively.
-..5. The "Mag" measurement indicator was expanded to "Magnitude"
-..6. Each element of the naming scheme was concatuated by hypens "-" to remove spaces and simplify data import.
-..7. The resulting naming schema parallels the original UCI_HAR data scheme but is more readable and is as follows:
-....* Time or Frequency
-....* Accelerometer or Gyroscope
-....* Body or Gravity
-....* Mean or Standard Deviation
-....* Jerk or Magnitude
-....* X, Y, or Z axis
-....* Example Renamed Feature: Time-Body-Accelerometer-Mean-X
+* The UCI_HAR data "t" & "f" variables were expanded to "Time" and "Frequency" respectively.
+* Acc and Gyro were replaced with the full terms "Accelerator" and "Gyroscope"
+* The erronious "Body-Body" naming at the end of the file was resolved to comply with original UCI_HAR scheme.
+* The "mean()" and "std()" measurement naming was expanded to "Mean" and "StandardDeviation" respectively.
+* The "Mag" measurement indicator was expanded to "Magnitude"
+* Each element of the naming scheme was concatuated by hypens "-" to remove spaces and simplify data import.
+* The resulting naming schema parallels the original UCI_HAR data scheme but is more readable and is as follows:
+** Time or Frequency
+** Accelerometer or Gyroscope
+** Body or Gravity
+** Mean or Standard Deviation
+** Jerk or Magnitude
+** X, Y, or Z axis
+** Example Renamed Feature: Time-Body-Accelerometer-Mean-X
 
 5. Next the activity labels were read in from activity_labels.txt and referenced by ID in the master observation table with the header "Activity"
 
@@ -52,7 +52,7 @@ Cleaned UCI_HAR Dataset Code Book
 ..1. The text file is easily read into another script or imported into Excel for future processing. 
 ..2. The R script duplicates the above outlined process and programattically creates the clean data. 
 	
-##DATA VARIABLES## 
+##DATA VARIABLES##
 
 Below is the full list of data variables: 
 
@@ -68,11 +68,11 @@ Below is the full list of data variables:
 - LAYING
 
 
-### Subject - The participant (person) being measured ###
+###Subject - The participant (person) being measured###
 - A unique number 1 - 30 for each participant
 - Only summary averages for each participant's Mean and Standard Deviation are shown for each activity.
 
-### Features ###
+###Features###
 - *Each feature below represents the mean/average for all the observations of that feature for each subject and each activity*
 - Time-Body-Accelerometer-Mean-X
 - Time-Body-Accelerometer-Mean-Y
@@ -118,27 +118,27 @@ Below is the full list of data variables:
 - Frequency-Body-Accelerometer-Mean-Y
 - Frequency-Body-Accelerometer-Mean-Z
 - Frequency-Body-Accelerometer-StandardDeviation-X
-Frequency-Body-Accelerometer-StandardDeviation-Y
-Frequency-Body-Accelerometer-StandardDeviation-Z
-Frequency-Body-Accelerometer-Jerk-Mean-X
-Frequency-Body-Accelerometer-Jerk-Mean-Y
-Frequency-Body-Accelerometer-Jerk-Mean-Z
-Frequency-Body-Accelerometer-Jerk-StandardDeviation-X
-Frequency-Body-Accelerometer-Jerk-StandardDeviation-Y
-Frequency-Body-Accelerometer-Jerk-StandardDeviation-Z
-Frequency-Body-Gyroscope-Mean-X
-Frequency-Body-Gyroscope-Mean-Y
-Frequency-Body-Gyroscope-Mean-Z
-Frequency-Body-Gyroscope-StandardDeviation-X
-Frequency-Body-Gyroscope-StandardDeviation-Y
-Frequency-Body-Gyroscope-StandardDeviation-Z
-Frequency-Body-Accelerometer-Magnitude-Mean
-Frequency-Body-Accelerometer-Magnitude-StandardDeviation
-Frequency-Body-Accelerometer-Jerk-Magnitude-Mean
-Frequency-Body-Accelerometer-Jerk-Magnitude-StandardDeviation
-Frequency-Body-Gyroscope-Magnitude-Mean
-Frequency-Body-Gyroscope-Magnitude-StandardDeviation
-Frequency-Body-Gyroscope-Jerk-Magnitude-Mean
-Frequency-Body-Gyroscope-Jerk-Magnitude-StandardDeviation
+- Frequency-Body-Accelerometer-StandardDeviation-Y
+- Frequency-Body-Accelerometer-StandardDeviation-Z
+- Frequency-Body-Accelerometer-Jerk-Mean-X
+- Frequency-Body-Accelerometer-Jerk-Mean-Y
+- Frequency-Body-Accelerometer-Jerk-Mean-Z
+- Frequency-Body-Accelerometer-Jerk-StandardDeviation-X
+- Frequency-Body-Accelerometer-Jerk-StandardDeviation-Y
+- Frequency-Body-Accelerometer-Jerk-StandardDeviation-Z
+- Frequency-Body-Gyroscope-Mean-X
+- Frequency-Body-Gyroscope-Mean-Y
+- Frequency-Body-Gyroscope-Mean-Z
+- Frequency-Body-Gyroscope-StandardDeviation-X
+- Frequency-Body-Gyroscope-StandardDeviation-Y
+- Frequency-Body-Gyroscope-StandardDeviation-Z
+- Frequency-Body-Accelerometer-Magnitude-Mean
+- Frequency-Body-Accelerometer-Magnitude-StandardDeviation
+- Frequency-Body-Accelerometer-Jerk-Magnitude-Mean
+- Frequency-Body-Accelerometer-Jerk-Magnitude-StandardDeviation
+- Frequency-Body-Gyroscope-Magnitude-Mean
+- Frequency-Body-Gyroscope-Magnitude-StandardDeviation
+- Frequency-Body-Gyroscope-Jerk-Magnitude-Mean
+- Frequency-Body-Gyroscope-Jerk-Magnitude-StandardDeviation
 
 
