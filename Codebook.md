@@ -36,7 +36,7 @@ Cleaned UCI_HAR Dataset Code Book
 -- Mean or Standard Deviation
 --Jerk or Magnitude
 --X, Y, or Z axis
---*Example Renamed Feature:* Time-Body-Accelerometer-Mean-X
+--Example Renamed Feature: *Time-Body-Accelerometer-Mean-X*
 
 5. Next the activity labels were read in from activity_labels.txt and referenced by ID in the master observation table with the header "Activity"
 
